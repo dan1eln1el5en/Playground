@@ -9,6 +9,7 @@ import ImagePlayground
 import SwiftUI
 
 struct ContentView: View {
+	@State private var activityManager = DeliveryTrackingManager()
 	
 	@State private var description = "Dog in a party hat"
 	@State private var images = [Image]()

@@ -11,8 +11,9 @@ import SwiftUI
 struct PlaygroundSandboxApp: App {
     var body: some Scene {
         WindowGroup {
-            LesserknownSwiftUI()
-			//ContentView()
+            //LesserknownSwiftUI()
+			ContentView()
+			
         }
     }
 }
